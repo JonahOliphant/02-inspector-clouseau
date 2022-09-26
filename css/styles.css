@@ -1,0 +1,81 @@
+/* body h1,h2,h3,h4,h5,h6,ul, li {
+    margin: 0;
+} */
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    
+    margin: 0 auto;
+   background-image: url(/02-InspectorClouseau/images/Screen\ Shot\ 2022-09-25\ at\ 8.36.27\ PM.jpg);
+   background-size:100%;
+   max-width: 960px;
+  height: 300px;
+  min-width: 550px;
+
+}
+
+body {
+    background-color: #bffab8;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0 0 2rem .5em;
+    padding-top: 0.5em;
+   color: #d61f81;
+   text-shadow: 0px 1px 2px #000000;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0 0 0 1em;
+   color: #d61f81;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+   color: #d61f81;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+
+ul {
+    max-width: 960px;
+    text-align: justify;
+    margin: 1em 0 2em 3em;
+    list-style-type: none; 
+}
+
+.mywindow {
+    margin: 1em 0em 3em 5em;
+    max-width: 960px;
+    text-align: justify;
+}
+
+.mydocument {
+    margin: 1em 0 2em 5em;
+    max-width: 960px;
+    text-align: justify;
+}
+
+.life {
+    margin: 1em 0 2em 5em;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 960px;
+   text-align: center;
+   background-color: #F9F9BC;
+}
+
+::selection {
+    background: #ffb662;
+}
